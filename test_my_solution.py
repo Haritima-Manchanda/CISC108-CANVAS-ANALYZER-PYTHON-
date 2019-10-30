@@ -25,7 +25,7 @@ import re
 import ast
 import copy
 from datetime import datetime, timedelta
-import ty
+import types
 
 #%% Top-level constants
 

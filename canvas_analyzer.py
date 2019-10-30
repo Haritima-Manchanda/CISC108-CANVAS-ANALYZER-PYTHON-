@@ -35,10 +35,10 @@ __version__ = 7
 
 
 def print_user_info (user):
-    print("Name: ",user["name"])
-    print("Title: ",user["title"])
-    print("Email: ",user["primary_email"])
-    print("Bio: ",user["bio"])
+    print("Name:",user["name"])
+    print("Title:",user["title"])
+    print("Primary Email:",user["primary_email"])
+    print("Bio:",user["bio"])
 
 def filter_available_courses(courses: list) -> list:
     list2=[]
@@ -173,10 +173,11 @@ def plot_grade_trends(a_list):
         highs=y_data3/max_points
         final_list_highs.append(highs)
 
-    plt.title("Grade Trends")
+    plt.title("Grade Trend")
     plt.plot(list_date,final_list_maxes,label="Maximum")
-    plt.plot(list_date,final_list_lows, label="Minimum")
+    plt.plot(list_date,final_list_lows, label="Lowest")
     plt.plot(list_date,final_list_highs, label="Highest")
+    plt.ylabel("Grade")
     plt.legend()
     plt.show()
 
