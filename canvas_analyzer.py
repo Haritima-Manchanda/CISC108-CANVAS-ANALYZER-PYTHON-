@@ -180,8 +180,6 @@ def plot_grade_trends(a_list):
     plt.legend()
     plt.show()
 
-
-
 def main(user_id):
     user = canvas_requests.get_user(user_id)
     print_user_info(user)
