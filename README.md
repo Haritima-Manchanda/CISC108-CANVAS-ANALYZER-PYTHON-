@@ -76,6 +76,8 @@ Your goal is to write the following 10 functions inside canvas_analyzer.py:
    
 # Notes
 
+**Understanding the data**: [Reference- Canvas Data](reference/canvas_reference.md)
+
 **Understanding the Formula**: Each line represents a running sum,
 and cannot be calculated with a single loop. Each score or
 points possible running sum must be multiplied by the assignment's
